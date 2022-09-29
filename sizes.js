@@ -25,13 +25,13 @@ $frm.compare.onclick = function(){
 
 for(var $i=0; $i < $frm.base_gn.length; $i++){
 	$frm.base_gn[$i].onclick = function($i){return function(){
-		$base_pic.src = './Outlines/'+ $frm.base_gn.value + 'outline.jpg';
+		$base_pic.src = 'https://durga794.github.io/comparingH/Outlines/'+ $frm.base_gn.value + 'outline.jpg';
 	}}($i);
 }
 
 for(var $i=0; $i < $frm.comp_gn.length; $i++){
 	$frm.comp_gn[$i].onclick = function($i){return function(){
-		$comp_pic.src = './Outlines/'+ $frm.comp_gn.value + 'outline.jpg';
+		$comp_pic.src = 'https://durga794.github.io/comparingH/Outlines/'+ $frm.comp_gn.value + 'outline.jpg';
 	}}($i);
 }
 
