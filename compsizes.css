@@ -1,0 +1,116 @@
+@namespace svg 'http://www.w3.org/2000/svg';
+body{
+	font-family:Verdana, sans-serif;
+	font-size:13px;
+}
+h1{text-align:center;}
+*.template{display:none;}
+#FigureCount div, #HeightFields{
+	display:table;
+	width:100%;
+}
+#FigureCount div p, #HFRow{
+	margin:0;
+	display:table-row;
+}
+#FigureCount label{
+	display:table-cell;
+	border:1px solid gray;
+	text-align:center;
+	padding:5px;
+}
+#FigureCount div input{
+	display:block;
+	margin:auto;
+}
+legend{
+	font-variant:small-caps;
+	font-size:150%;
+	border:1px solid black;
+	margin:0;
+	text-indent:0;
+	display:block;
+	
+}
+fieldset{
+	border:1px solid black;
+	margin-top:20px;
+}
+
+#HeightFields div.fieldset{
+	display:table-cell;
+}
+#Fig1 legend{color:navy;}
+svg|g.fig_1 *{
+	fill:navy;
+	stroke:navy;
+}
+#Fig2 legend{color:purple;}
+svg|g.fig_2 *{
+	fill:purple;
+	stroke:purple;
+}
+#Fig3 legend{color:maroon;}
+svg|g.fig_3 *{
+	fill:maroon;
+	stroke:maroon;
+}
+#Fig4 legend{color:olive;}
+svg|g.fig_4 *{
+	fill:olive;
+	stroke:olive;
+}
+#Fig5 legend{color:green;}
+svg|g.fig_5 *{
+	fill:green;
+	stroke:green;
+}
+#Fig6 legend{color:teal;}
+svg|g.fig_6 *{
+	fill:teal;
+	stroke:teal;
+}
+
+#HeightFields fieldset.disabled, #HeightFields fieldset.disabled legend{background:silver;}
+#HeightFields table, #HeightFields th, #HeightFields td{
+	border-collapse:collapse;
+	border:1px solid gray;
+	padding:5px;
+}
+#HeightFields input[type="text"]{width:3em;}
+#HeightFields input[type="text"].name{width:5em;}
+ul, li{
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-indent:0;
+}
+
+#FigureDisplay{margin-top:20px;}
+#SizeCode div#CodeButtons{
+	display:table;
+	width:100%;
+	padding:0;
+	margin:0;
+}
+input[name="Size_Code"], input[name="Size_URL"],label[for="Size_URL"]{
+	display:block;
+	width:100%;
+	padding:0;
+}
+label[for="Size_URL"]{
+	text-align:center;
+	font-size:1.2em;
+	font-variant:small-caps;
+}
+#SizeCode div#CodeButtons p{
+	display:table-row;
+	padding:0;
+	margin:0;
+}
+
+#SizeCode button{
+	display:table-cell;
+	width:50%;
+}
+#Ko-Fi img{height:30px;}
